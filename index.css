@@ -30,10 +30,40 @@ p{word-wrap:break-word}
     overflow: hidden;
 }
 
+
 .top {
     height: 80px;
     position: relative;
 
+}
+.phone1{
+    position: relative;
+}
+
+.nav {
+    width: 57px;
+    height: 194px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+}
+
+.nav a {
+    display:table;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8edee;
+    margin:0 auto;
+    font-size: 15px;
+    color: #81878d;
+}
+
+.nav a:last-child {
+    border-bottom: 0px;
+}
+.nav a:hover {
+    color: #090e15;
 }
 /*  logo 部分   */
 .logo{
