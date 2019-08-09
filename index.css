@@ -1,0 +1,217 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:none}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both;
+    visibility:hidden;
+}
+.fl {
+    float: left;
+}
+
+
+
+.w{
+    width: 1440px;
+    overflow: hidden;
+}
+
+.top {
+    height: 80px;
+    position: relative;
+
+}
+/*  logo 部分   */
+.logo{
+
+    position: absolute;
+    left: 280px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 100px;
+}
+
+.top a img {
+    width: 40px;
+    height: 40px;
+}
+
+.phone1 a img {
+    width: 100%;
+}
+.mksj {
+    position: absolute;
+    left: 25%;
+    top: 53%;
+    transform: translate(-50%,-50%);
+    line-height: 100px;
+    text-align: center;
+}
+.mksj span {
+    font-size: 20px;
+    font-weight: 200;
+
+}
+
+/*   右侧导航部分   */
+
+.right-nav{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    line-height: 80px;
+    height: 80px;
+    text-align: center;
+}
+.right-nav div {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 2px;
+
+}
+.right-nav a {
+    display: inline-block;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.right-nav a:hover {
+    border-bottom: 2px solid #e8343d;
+}
+
+.right-nav2 {
+    position: absolute;
+    right: 12%;
+    top: 51%;
+    transform: translate(-50%,-50%);
+    /*line-height: 100px;*/
+    /*text-align: center;*/
+}
+
+.right-nav2 .buynow {
+    background-color: #090e15;
+    display: block;
+    width: 80px;
+    height: 40px;
+    color: white;
+    text-align:center;
+    line-height: 40px;
+}
+
+.phone2 a img {
+    width: 100%;
+}
+
+.phone3 a img {
+    width: 100%;
+}
+
+.phone-model {
+    width: 100%;
+    height: 800px;
+    position: relative;
+}
+.phone-model .focus-font {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.phone-model .focus-font .font-top{
+    font-size: 48px;
+    color: #e9001b;
+}
+
+
+.phone-model .focus-font .font-bottom {
+    position: absolute;
+    left: 50%;
+    top: 170%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 16px;
+}
+
+.phone-show {
+    width: 100%;
+}
+.phone-show2 {
+    position: relative;
+    left: 7%;
+    top: 45%;
+}
+.phone-show2 a img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.phone-show2 a p{
+
+    display: block;
+    margin-left: 140px;
+}
+
+.phone-show2 a span{
+    display: block;
+    margin-left: 125px;
+    color: #b5b9bd;
+}
+.img-bottom {
+    position: relative;
+}
+.img-bottom a img {
+    width: 100%;
+}
+
+.img-bottom .buynow2 {
+    display: block;
+    width: 240px;
+    height: 80px;
+    background-color: #e90012;
+    position: absolute;
+    left: 600px;
+    bottom: 78px;
+    border-radius: 5px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 80px;
+    background-color: #090e15;
+}
+.bottom-font{
+    display:table;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.bottom a {
+    color: white;
+    font-size: 15px;
+}
+
+
+
